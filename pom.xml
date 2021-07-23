@@ -9,8 +9,8 @@
 		<version>2.4.1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>edymar.microservicios.commons.entity</groupId>
-	<artifactId>edymar-microservicios-commons-entity</artifactId>
+	<groupId>cr.microservicios.commons.entity</groupId>
+	<artifactId>cr-microservicios-commons-entity</artifactId>
 	<version>0.0.1</version>
 	<name>commons-entity</name>
 	<description>Común para almacenar entidades</description>
