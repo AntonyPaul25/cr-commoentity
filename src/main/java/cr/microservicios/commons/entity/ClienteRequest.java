@@ -1,17 +1,34 @@
 package cr.microservicios.commons.entity;
 
+import javax.validation.constraints.NotEmpty;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class ClienteRequest {
 
+	@NotEmpty
+	@JsonProperty("numsolicitud")
+	private String numsolicitud;
+
+	@NotEmpty
 	@JsonProperty("codeID")
 	private String codeId;
 
+	@NotEmpty
 	@JsonProperty("documentIdType")
 	private String documentIdType;
 
+	@NotEmpty
 	@JsonProperty("documentIdNumber")
 	private String documentIdNumber;
+
+	public String getNumsolicitud() {
+		return numsolicitud;
+	}
+
+	public void setNumsolicitud(String numsolicitud) {
+		this.numsolicitud = numsolicitud;
+	}
 
 	public String getCodeId() {
 		return codeId;
